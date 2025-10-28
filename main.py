@@ -1,9 +1,3 @@
-"""
-Tiny script for testing GitHub commits/CI.
-
-Run it to print some environment details, a random payload, and a Fibonacci summary.
-You can customize the output with optional flags; see `--help`.
-"""
 
 from __future__ import annotations
 
@@ -106,4 +100,5 @@ def main(argv: List[str]) -> int:
 
 
 if __name__ == "__main__":
+
     raise SystemExit(main(sys.argv[1:]))
